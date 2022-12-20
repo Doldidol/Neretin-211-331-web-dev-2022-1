@@ -1,0 +1,23 @@
+{
+  "name": "neretin-211-331-web-dev-2022-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doldidol/Neretin-211-331-web-dev-2022-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doldidol/Neretin-211-331-web-dev-2022-1/issues"
+  },
+  "homepage": "https://github.com/Doldidol/Neretin-211-331-web-dev-2022-1#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  }
+}

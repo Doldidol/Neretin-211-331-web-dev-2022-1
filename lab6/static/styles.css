@@ -1,0 +1,68 @@
+/*
+  #011627 -- nav-link
+  #011627 -- background dark
+  #83F3ED -- icons font color, heading-line
+*/
+
+.hero {
+  background-color: #eaecf0;
+}
+
+.call-to-action {
+  background-color: #011627;
+  color: white;
+}
+
+.heading-line {
+  width: 200px;
+  height: 3px;
+  background-color: #83F3ED;
+}
+
+/* ----------------------------------------------------------------- */
+/* добавленные стили */
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+a.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.exterior-design .row {
+  background-color: #011627;
+  color: #83F3ED;
+}
+
+.exterior-design .row>* {
+  padding: 50px;
+}
+
+.exterior-design .row img {
+  width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+.interior-design .row {
+  background-color: #011627;
+  color: #83F3ED;
+}
+
+.interior-design .row>* {
+  padding: 50px;
+}
+
+.interior-design .row img {
+  width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #011627
+}
