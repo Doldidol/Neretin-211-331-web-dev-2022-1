@@ -1,30 +1,36 @@
-/*
-  #011627 -- nav-link
-  #011627 -- background dark
-  #83F3ED -- icons font color, heading-line
-*/
-
 .hero {
   background-color: #eaecf0;
 }
 
 .call-to-action {
-  background-color: #011627;
-  color: white;
+  background-color: #c6a0d9;
+  color: #4c4b84;
 }
 
 .heading-line {
   width: 200px;
   height: 3px;
-  background-color: #83F3ED;
+  background-color: #56c6d1;
 }
 
-/* ----------------------------------------------------------------- */
-/* добавленные стили */
+
+.hbc {
+  background-color: #4c4b84;
+}
+
+img {
+  border-radius: 5px;
+}
+
+
+.title {
+  color: #b0b4da;
+}
 
 .icon {
   width: 64px;
   height: 64px;
+  border-radius: 32px;
 }
 
 a.navbar-brand {
@@ -33,36 +39,22 @@ a.navbar-brand {
   gap: 20px;
 }
 
-.exterior-design .row {
-  background-color: #011627;
-  color: #83F3ED;
+.meme-block .row {
+  background-color: #c6a0d9;
+  color: #4c4b84;
 }
 
-.exterior-design .row>* {
+.meme-block .row>* {
   padding: 50px;
 }
 
-.exterior-design .row img {
-  width: 90%;
-  max-height: 90%;
-  object-fit: cover;
-}
-
-.interior-design .row {
-  background-color: #011627;
-  color: #83F3ED;
-}
-
-.interior-design .row>* {
-  padding: 50px;
-}
-
-.interior-design .row img {
-  width: 90%;
-  max-height: 90%;
+.meme-block .row img {
+  width: 100%;
+  max-height: 100%;
   object-fit: cover;
 }
 
 .footer {
-  background-color: #011627
+  background-color: #c6a0d9;
+  color: #4c4b84;
 }
