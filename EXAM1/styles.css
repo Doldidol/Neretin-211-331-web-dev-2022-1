@@ -1,0 +1,230 @@
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+a.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+input[type=date] {
+    font-size: 15px;
+}
+
+.title {
+    color: #987654;
+}
+
+.navbar {
+    background: #ffdb8b;
+    padding: 5px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.btn {
+    color: #987654;
+}
+
+.alert-container {
+    width: 100%;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 10;
+    top: 20px;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+}
+
+.icon {
+    height: 64px;
+    width: 64px;
+    border-radius: 16px;
+}
+
+.header *,
+.hero,
+.list-of-walking-routes,
+.list-of-walking-routes .pagination *,
+.advantages h2,
+.list-of-guides {
+    color: #987654;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #FDF4E3;
+}
+
+/* секция краткое описание проекта */
+.hero .container {
+    background-color: #ffdb8b;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+/* секция достоинство проекта */
+.advantages .container {
+    background-color: #ffdb8b;
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
+/* секция доступных пешеходных маршрутов */
+.list-of-walking-routes .container {
+    background-color: #ffdb8b;
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
+.search-field {
+    width: 100%;
+}
+
+/* оформление таблицы доступных пешеходных маршрутов */
+.table-walking-routes .row>* {
+    padding: 5px;
+}
+
+.table-walking-routes .row .choose-btn {
+    height: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-walking-routes .row>*>* {
+    height: 100%;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-walking-routes .row .choose {
+    overflow: visible;
+}
+
+.list-of-walking-routes .search-field {
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.pagination-bar .pagination {
+    gap: 5px;
+}
+
+.pagination-bar .pagination a {
+    height: 100%;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.pagination-bar .pagination a.active {
+    background-color: #ffdb8b;
+}
+
+.pagination .page-link {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.pagination .active {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* секция гидов */
+.list-of-guides .container {
+    background-color: #ffdb8b;
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
+.list-of-guides .experience-from-to>* {
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+/* оформление таблицы, содержащую информацию о гидах */
+.table-guides .row>* {
+    padding: 5px;
+}
+
+.table-guides .row .choose-btn {
+    height: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-guides .row>*>* {
+    height: 100%;
+    width: 100%;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 5px 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-guides .row .choose {
+    overflow: visible;
+}
+
+.footer {
+    background-color: #ffdb8b;
+}
+
+/* общие стили */
+.white-square-with-rounded-edges {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+a.button {
+    color: #987654;
+    text-decoration: none;
+    padding: 10px;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button.button {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* стили для модального окна */
+.modal-content {
+    background-color: #ffdb8b;
+}
+
+.modal-body {
+    min-height: 300px;
+}
+
+#route-name {
+    min-height: 100px;
+}
