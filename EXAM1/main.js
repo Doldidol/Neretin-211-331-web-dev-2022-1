@@ -380,30 +380,23 @@ function renderAvailableRoutes(data) {
     }
 }
 
-/**
- * Функция для создания кнопки для навигации по страницам
- * @param {number} page - страница
- * @param {object} classes - назначенные классы
- * @returns {button} - кнопка
- */
+
 function createPageBtn(page, classes = []) {
-    // создание кнопки-ссылки
-    // сслыка используется для того, 
-    // чтобы при нажатии возвращаться в начало выдачи результатов
+
     let btn = document.createElement('a');
-    // в цикле кнопке назначаются классы 
+
     for (cls of classes) {
         btn.classList.add(cls);
     }
-    // добавление стилей bootstrap
+
     btn.classList.add('page-link');
     btn.classList.add('d-flex');
     btn.classList.add('align-items-center');
-    // установка данных внутрь кода кнопки 
+
     btn.dataset.page = page;
-    // присвоение номера страницы кнопке 
+
     btn.innerHTML = page;
-    // назначение якоря на начало выдачи результатов
+
     btn.href = '#label-search-field';
     return btn;
 }
