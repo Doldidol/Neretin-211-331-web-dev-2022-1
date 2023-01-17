@@ -185,16 +185,6 @@ async function buttonChooseGuideHandler(event) {
     let routeName = formInputs['route-name'];
     let idRoute = formInputs['idRoute'];
     let excursionDate = formInputs['excursion-date'];
-    let option1Name = modalWindow.querySelector('#createRequest \
-        .option-1 .form-check-label');
-    let option1Desc = modalWindow.querySelector('#createRequest \
-        .option-1 .description');
-    let option1amount = formInputs['discount-amount-1'];
-    let option2Name = modalWindow.querySelector('#createRequest \
-        .option-2 .form-check-label');
-    let option2Desc = modalWindow.querySelector('#createRequest \
-        .option-2 .description');
-    let option2amount = formInputs['discount-amount-2'];
 
     fio.value = dataGuide.name;
     idGuide.value = dataGuide.id;
@@ -202,9 +192,6 @@ async function buttonChooseGuideHandler(event) {
     routeName.value = dataRoute.name;
     idRoute.value = dataRoute.id;
     excursionDate.value = getCurrentDate();
-    option2Name.innerHTML = 'трансфер после экскурсии';
-    option2Desc.innerHTML = 'трансфер до ближайших станций метро после \
-    экскурсии увеличивает стоимость на (в выходные дни/в будние) ';
     changeFieldRequestHandler();
 }
 
@@ -596,11 +583,6 @@ window.onload = function () {
         changeFieldRequestHandler;
     document.querySelector('#number-of-people').onchange =
         changeFieldRequestHandler;
-    document.querySelector('#option-1').onchange =
-        changeFieldRequestHandler;
-    document.querySelector('#option-2').onchange =
-        changeFieldRequestHandler;
-
     document.querySelector('#buttonCancel').onclick = function () {
 
         if (alertContainer.querySelector('.alert-item')) {
