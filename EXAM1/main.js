@@ -202,13 +202,9 @@ async function buttonChooseGuideHandler(event) {
     routeName.value = dataRoute.name;
     idRoute.value = dataRoute.id;
     excursionDate.value = getCurrentDate();
-    option1Name.innerHTML = 'скидка для пенсионеров';
-    option1Desc.innerHTML = 'скидка для пенсионеров стоимость уменьшается на ';
-    option1amount.value = '25%';
     option2Name.innerHTML = 'трансфер после экскурсии';
     option2Desc.innerHTML = 'трансфер до ближайших станций метро после \
     экскурсии увеличивает стоимость на (в выходные дни/в будние) ';
-    option2amount.value = '25%/30%';
     changeFieldRequestHandler();
 }
 

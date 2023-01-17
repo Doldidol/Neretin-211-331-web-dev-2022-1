@@ -18,11 +18,6 @@
   background-color: #4c4b84;
 }
 
-img {
-  border-radius: 5px;
-}
-
-
 .title {
   color: #b0b4da;
 }
@@ -53,6 +48,11 @@ a.navbar-brand {
   max-height: 100%;
   object-fit: cover;
 }
+
+/* .mem div {
+
+  width: 25%;
+} */
 
 .footer {
   background-color: #c6a0d9;
