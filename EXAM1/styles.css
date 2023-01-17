@@ -66,21 +66,21 @@ main {
     background-color: #FDF4E3;
 }
 
-/* секция краткое описание проекта */
+
 .hero .container {
     background-color: #ffdb8b;
     border-radius: 20px;
     padding: 20px 20px;
 }
 
-/* секция достоинство проекта */
+
 .advantages .container {
     background-color: #ffdb8b;
     border-radius: 25px;
     padding: 20px 20px;
 }
 
-/* секция доступных пешеходных маршрутов */
+
 .list-of-walking-routes .container {
     background-color: #ffdb8b;
     border-radius: 25px;
@@ -91,7 +91,7 @@ main {
     width: 100%;
 }
 
-/* оформление таблицы доступных пешеходных маршрутов */
+
 .table-walking-routes .row>* {
     padding: 5px;
 }
@@ -159,7 +159,7 @@ main {
     padding: 5px 15px;
 }
 
-/* оформление таблицы, содержащую информацию о гидах */
+
 .table-guides .row>* {
     padding: 5px;
 }
@@ -190,7 +190,7 @@ main {
     background-color: #ffdb8b;
 }
 
-/* общие стили */
+
 .white-square-with-rounded-edges {
     background-color: white;
     border-radius: 10px;
@@ -216,7 +216,7 @@ button.button {
     border-radius: 15px;
 }
 
-/* стили для модального окна */
+
 .modal-content {
     background-color: #ffdb8b;
 }
