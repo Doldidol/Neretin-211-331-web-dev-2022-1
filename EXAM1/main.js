@@ -3,8 +3,6 @@ const API_KEY = '4db16ef1-5038-478f-92cb-72cd9675792a';
 
 const PER_PAGE = 10;
 const MAX_TEXT_SELECT_SIZE = 30;
-
-
 const alertRemoveTime = 5000;
 const rubleSymbol = '\u20bd';
 
@@ -90,15 +88,7 @@ async function dataExchangeWithTheServer(method, type, params, id) {
                 }
             }
         }
-        if (method == 'post' && type == 'orders') {
 
-            url = new URL(`${DEFAULT_URL}/orders`);
-        }
-        if ((method == 'put' || method == 'delete')
-            && type == 'orders' && id != undefined) {
-
-            url = new URL(`${DEFAULT_URL}/orders/${id}`);
-        }
     } else {
         error = true;
     }
@@ -573,7 +563,6 @@ window.onload = function () {
     searchField.oninput = searchFieldHandler;
 
     landmarkSelect.onchange = selectorOfAvailableRoutesHandler;
-    buttonCreateRequest.onclick = buttonSendRequestHandler;
 
     document.querySelector('#excursion-date').onchange =
         changeFieldRequestHandler;
